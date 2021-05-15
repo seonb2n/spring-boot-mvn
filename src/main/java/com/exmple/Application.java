@@ -12,14 +12,11 @@ import javax.swing.*;
 @SpringBootApplication
 @RestController
 public class Application {
-    @GetMapping("/")
-    public String hello() {
-        return "hello Spring";
-    }
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder()
-                .sources(Application.class)
-                .run(args);
+        SpringApplication app = new SpringApplication(Application.class);
+        app.addListeners(new SampleListener());
+        //listener 를 등록해줌.
+        app.run(args);
     }
 }
