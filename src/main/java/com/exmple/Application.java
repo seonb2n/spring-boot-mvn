@@ -15,8 +15,6 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication app = new SpringApplication(Application.class);
-        app.addListeners(new SampleListener());
-        //listener 를 등록해줌.
         app.run(args);
     }
 }
