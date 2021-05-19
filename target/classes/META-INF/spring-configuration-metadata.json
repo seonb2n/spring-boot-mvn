@@ -1,0 +1,28 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.exmple.SampleProperties",
+      "name": "seonbin",
+      "type": "com.exmple.SampleProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.exmple.SampleProperties",
+      "defaultValue": 0,
+      "name": "seonbin.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.exmple.SampleProperties",
+      "name": "seonbin.full-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.exmple.SampleProperties",
+      "name": "seonbin.name",
+      "type": "java.lang.String"
+    }
+  ]
+}
