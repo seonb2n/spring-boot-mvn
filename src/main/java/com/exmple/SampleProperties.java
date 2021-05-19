@@ -6,16 +6,22 @@ import org.springframework.boot.convert.DurationUnit;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
+import org.springframework.validation.annotation.Validated;
 
+import javax.validation.constraints.NotEmpty;
 import java.time.Duration;
 import java.time.temporal.ChronoUnit;
 
 @Component
 @ConfigurationProperties("seonbin")
+@Validated
 public class SampleProperties {
 
+    @NotEmpty
     private String name;
+
     private int age;
+    
     private String fullName;
 
     //Duration Unit 을 초 단위로 받겠다고 선언
