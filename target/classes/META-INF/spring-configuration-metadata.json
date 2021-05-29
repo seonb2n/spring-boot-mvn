@@ -10,6 +10,7 @@
   "properties": [
     {
       "sourceType": "com.exmple.SampleProperties",
+      "defaultValue": 0,
       "name": "seonbin.age",
       "type": "java.lang.Integer"
     },
@@ -25,6 +26,7 @@
     },
     {
       "sourceType": "com.exmple.SampleProperties",
+      "defaultValue": "30s",
       "name": "seonbin.session-timeout",
       "type": "java.time.Duration"
     }
