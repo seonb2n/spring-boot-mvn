@@ -2,29 +2,29 @@
   "hints": [],
   "groups": [
     {
-      "sourceType": "com.exmple.SampleProperties",
+      "sourceType": "com.example.SampleProperties",
       "name": "seonbin",
-      "type": "com.exmple.SampleProperties"
+      "type": "com.example.SampleProperties"
     }
   ],
   "properties": [
     {
-      "sourceType": "com.exmple.SampleProperties",
+      "sourceType": "com.example.SampleProperties",
       "name": "seonbin.age",
       "type": "java.lang.Integer"
     },
     {
-      "sourceType": "com.exmple.SampleProperties",
+      "sourceType": "com.example.SampleProperties",
       "name": "seonbin.full-name",
       "type": "java.lang.String"
     },
     {
-      "sourceType": "com.exmple.SampleProperties",
+      "sourceType": "com.example.SampleProperties",
       "name": "seonbin.name",
       "type": "java.lang.String"
     },
     {
-      "sourceType": "com.exmple.SampleProperties",
+      "sourceType": "com.example.SampleProperties",
       "name": "seonbin.session-timeout",
       "type": "java.time.Duration"
     }

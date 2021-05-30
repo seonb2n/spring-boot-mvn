@@ -1,4 +1,4 @@
-package com.exmple;
+package com.example;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,9 +21,9 @@ public class SampleRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("======================");
-        logger.info(sampleProperties.getName());
-        logger.info(sampleProperties.getFullName());
+        System.out.println("========logger========");
+        logger.debug(sampleProperties.getName());
+        logger.debug(sampleProperties.getFullName());
         System.out.println("======================");
 
     }
