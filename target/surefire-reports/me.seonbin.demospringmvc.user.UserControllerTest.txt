@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: me.seonbin.demospringmvc.user.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.976 s <<< FAILURE! - in me.seonbin.demospringmvc.user.UserControllerTest
+hello(me.seonbin.demospringmvc.user.UserControllerTest)  Time elapsed: 0.373 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at me.seonbin.demospringmvc.user.UserControllerTest.hello(UserControllerTest.java:24)
+

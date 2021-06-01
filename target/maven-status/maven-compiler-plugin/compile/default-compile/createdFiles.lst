@@ -1,3 +1,2 @@
-com\exmple\SampleProperties.class
-com\exmple\Application.class
-com\exmple\SampleListener.class
+me\seonbin\demospringmvc\DemospringmvcApplication.class
+me\seonbin\demospringmvc\user\UserController.class
