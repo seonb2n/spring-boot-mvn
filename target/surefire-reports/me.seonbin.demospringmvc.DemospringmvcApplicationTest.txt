@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: me.seonbin.demospringmvc.DemospringmvcApplicationTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.027 s <<< FAILURE! - in me.seonbin.demospringmvc.DemospringmvcApplicationTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.025 s <<< FAILURE! - in me.seonbin.demospringmvc.DemospringmvcApplicationTest
 warning(junit.framework.TestSuite$1)  Time elapsed: 0.006 s  <<< FAILURE!
 junit.framework.AssertionFailedError: No tests found in me.seonbin.demospringmvc.DemospringmvcApplicationTest
 	at junit.framework.TestSuite$1.runTest(TestSuite.java:97)
